@@ -2,9 +2,7 @@
 
 @section('content')
 <div class="container">
-    <h2 class="fs-4 text-secondary my-4">
-        <h3>Projects</h3>
-    </h2>
+    <h3>Dashboard</h3>
     <div class="row justify-content-center">
         <div class="col">
             <div class="card">
