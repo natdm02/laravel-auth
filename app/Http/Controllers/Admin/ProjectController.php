@@ -47,7 +47,7 @@ class ProjectController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Project $project)
     {
         //
     }
@@ -60,7 +60,7 @@ class ProjectController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('admin.projects.show', compact('project'));
     }
 
     /**
