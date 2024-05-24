@@ -25,4 +25,12 @@ class Project extends Model
 
         return $slug;
     }
+    protected $fillable = [
+        'name',
+        'description',
+        'category',
+        'start_date',
+        'end_date',
+        'slug'
+    ];
 }
