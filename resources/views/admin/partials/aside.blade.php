@@ -11,6 +11,12 @@
                 <i class="fa-solid fa-diagram-project me-2"></i>
                 Projects
             </a>
+            <li>
+                <a href="{{ route('admin.projects.create') }}" class="{{ Route::currentRouteName() === 'admin.projects.create' ? 'active' : '' }}">
+                    <i class="fa-solid fa-square-plus fa-lg me-2"></i>
+                    Add a New Project
+                </a>
+            </li>
         </li>
     </ul>
 </aside>
